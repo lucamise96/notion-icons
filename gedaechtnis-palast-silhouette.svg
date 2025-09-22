@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gedächtnis-Palast Silhouette">
+  <title>Gedächtnis-Palast Silhouette</title>
+  <style>
+    :root { color: #000; } /* Light mode: black */
+    @media (prefers-color-scheme: dark) { :root { color: #fff; } /* Dark mode: white */ }
+  </style>
+
+  <g fill="currentColor" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Brain shape: lobed silhouette with more detail -->
+    <path d="M120 360c-25-35-15-85 20-110 18-13 38-18 60-14 5-30 32-56 66-56s61 26 66 56c22-4 42 1 60 14 35 25 45 75 20 110-20 30-55 50-92 56H212c-37-6-72-26-92-56z"/>
+    <!-- Additional brain grooves (stylized, not realistic) -->
+    <path d="M180 280c10-10 30-10 40 0M220 320c15-10 35-10 50 0M280 280c10-10 30-10 40 0"/>
+
+    <!-- Castle base platform -->
+    <rect x="156" y="150" width="200" height="30" rx="6" ry="6"/>
+
+    <!-- Central keep -->
+    <rect x="220" y="110" width="72" height="70"/>
+    <!-- Keep battlements -->
+    <path d="M220 110h18v-20h-18zM256 110h18v-20h-18zM292 110h18v-20h-18z"/>
+
+    <!-- Central gate -->
+    <rect x="238" y="150" width="36" height="30" rx="6" ry="6"/>
+
+    <!-- Left tower -->
+    <rect x="156" y="120" width="28" height="90"/>
+    <path d="M170 80l20 40h-40z"/>
+
+    <!-- Right tower -->
+    <rect x="328" y="120" width="28" height="90"/>
+    <path d="M342 80l20 40h-40z"/>
+
+    <!-- Parapet between towers -->
+    <path d="M156 120h200v20H156z"/>
+    <!-- Small crenellations -->
+    <path d="M168 120v-16h16v16M200 120v-16h16v16M232 120v-16h16v16M264 120v-16h16v16M296 120v-16h16v16M328 120v-16h16v16"/>
+  </g>
+</svg>
