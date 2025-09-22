@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gedächtnis-Palast Icon">
+  <title>Gedächtnis-Palast</title>
+  <!-- Color control: inherits from current text color -->
+  <style>
+    :root { color: #000; } /* default (light mode): black */
+    @media (prefers-color-scheme: dark) { :root { color: #fff; } /* dark mode: white */ }
+  </style>
+
+  <g fill="currentColor" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Brain (front, simplified, slightly heart-like lobes with a flattened base) -->
+    <path d="M112 332c-18-34-7-76 24-96 19-12 41-13 60-6 1-30 27-56 58-56s57 26 58 56c19-7 41-6 60 6 31 20 42 62 24 96-15 28-42 48-73 56H185c-31-8-58-28-73-56z"/>
+
+    <!-- Palace / Castle (centered above brain) -->
+    <!-- Base platform slightly overlapping brain top -->
+    <rect x="152" y="156" width="208" height="28" rx="6" ry="6"/>
+
+    <!-- Central keep -->
+    <path d="M206 110h100v84H206z"/>
+    <!-- Battlements on keep -->
+    <path d="M206 110h20v-20h-20zM246 110h20v-20h-20zM286 110h20v-20h-20z"/>
+
+    <!-- Gate on keep -->
+    <path d="M238 168a18 18 0 0 1 36 0v26h-36z"/>
+
+    <!-- Left tower -->
+    <path d="M166 120h36v96h-36z"/>
+    <!-- Left tower roof (conical) -->
+    <path d="M184 80l22 40h-44z"/>
+
+    <!-- Right tower -->
+    <path d="M310 120h36v96h-36z"/>
+    <!-- Right tower roof (conical) -->
+    <path d="M328 80l22 40h-44z"/>
+
+    <!-- Parapet between towers -->
+    <path d="M166 120h180v20H166z"/>
+    <!-- Small crenellations -->
+    <path d="M176 120v-16h16v16M208 120v-16h16v16M240 120v-16h16v16M272 120v-16h16v16M304 120v-16h16v16"/>
+  </g>
+</svg>
